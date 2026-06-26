@@ -7,7 +7,7 @@ st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
 st.title("🏦 Customer Churn Dashboard")
 
 # ── Load Data ─────────────────────────────────────────────────
-df = pd.read_csv(r"C:\Users\Surya Krishna K G\Downloads\Customer_churn.csv")
+df = pd.read_csv(r"Customer_churn.csv")
 st.success(f"✅ File loaded! {df.shape[0]:,} rows × {df.shape[1]} columns")
 
 # ── Sidebar Filters ───────────────────────────────────────────
