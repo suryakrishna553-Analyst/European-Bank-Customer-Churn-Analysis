@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ── Page config ──────────────────────────────────────────────
-st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
+st.set_page_config(page_title="European Bank Customer Churn Dashboard", layout="wide")
 st.title("🏦 Customer Churn Dashboard")
 
 # ── Load Data ─────────────────────────────────────────────────
