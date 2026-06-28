@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ── Page config ──────────────────────────────────────────────
-st.set_page_config(page_title="European Bank Customer Churn Dashboard", layout="wide")
-st.title("🏦 Customer Churn Dashboard")
+st.set_page_config(page_title="European Bank Customer Churn", layout="wide")
+st.title("🏦 European Bank Customer Churn Dashboard")
 
 # ── Load Data ─────────────────────────────────────────────────
 df = pd.read_csv(r"Customer_churn.csv")
